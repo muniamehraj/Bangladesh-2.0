@@ -1,0 +1,353 @@
+
+
+.fira-sans {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Common */
+.full-section {
+  background-color: #F5F5F5;
+}
+
+.text-primary {
+  color: #0E0E0E;
+}
+
+.btn-primary {
+  color: #006A50;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 15px 30px;
+  font-weight: 600;
+  border: 2px solid #006A50;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: #006A50;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 17px 36px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.pillars {
+  margin: 80px 160px 32px 160px;
+  font-size: 40px;    
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+/* Nav */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 160px;
+}
+.nav-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* Banner */
+.banner {
+  background-color: #C6E4D6;
+  padding: 80px 100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 160px;
+  border-radius: 12px;
+}
+
+.banner-content {
+  max-width: 622px;
+  margin-right: 64px;
+}
+
+.banner-title {
+  color: #0E0E0E;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.banner-description {
+  font-size: 56px;
+  margin-bottom: 24px;
+  margin-top: 16px;
+}
+
+.banner-profile-pic {
+  max-width: 400px;
+}
+
+/* Pillars */
+.technology {
+  display: flex;
+  gap: 24px;
+}
+
+.tech {
+  padding: 24px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px rgba(14, 14, 14, 0.15);
+}
+
+.tech-title {
+  font-size: 20px;
+}
+
+.tech-description {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* Vision */
+.information {
+  display: flex;
+  gap: 24px;
+}
+
+.info-blue, .info-green, .info-yellow {
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(14, 14, 14, 0.15);
+}
+
+.info-blue { background-color: rgba(84, 144, 245, 0.2); }
+.info-green { background-color: #C6E4D6; }
+.info-yellow { background-color: #F7EBCF; }
+
+.info-title {
+  font-size: 20px;
+}
+
+.info-description {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.btn-blue, .btn-green, .btn-yellow {
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 11px 20px;
+  cursor: pointer;
+}
+.btn-blue { background-color: #5490F5; }
+.btn-green { background-color: #09A15C; }
+.btn-yellow { background-color: #FFC239; }
+
+/* Quote Section */
+.description {
+  margin: 80px 160px 32px 160px;
+  background-color: white;
+  background-image: url('../assets/quote-bg.png');
+  background-repeat: no-repeat;
+  padding: 48px 24px;
+  border-radius: 12px;
+}
+
+.des-pera-1 {
+  color: rgba(14, 14, 14, 0.8);
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.pera-2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pera-3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+/* Opinion Table */
+
+.opinion-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  background: white;
+}
+
+.opinion-table thead {
+  background-color: #C6E4D6;
+}
+
+.opinion-table th {
+  text-align: left;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0E0E0E;
+}
+
+.opinion-table td {
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Dropdown */
+.dropdown {
+  padding: 10px 16px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #006A50;
+  border: 1px solid #006A50;
+  border-radius: 6px;
+  background-color: #C6E4D6;
+  cursor: pointer;
+  appearance: none;
+  outline: none;
+}
+
+.dropdown:hover {
+  background-color: #b2dac4;
+}
+
+.satellite{
+    display: flex;
+    gap: 32px;
+    align-items: start;
+    justify-content: space-between;
+    padding: 48px 48px;
+    background-color: white;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.img-satellite{
+    width: 406px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+.satellite-title{
+    margin-bottom: 12px;
+}
+
+.satellite-content{
+    font-size: 32px;
+
+}
+
+.al-jazeera{
+    width: 134px;
+    height: 40px;
+   
+}
+
+.date{
+    display: flex;
+    gap: 12px;
+}
+
+.donate{
+    margin-bottom: 12px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.notes{
+    display: flex;
+    gap: 24px;
+    padding: 32px 105px;
+    width: 1071px 128px;
+}
+
+.btn-taka{
+    padding: 40px;
+    border: none;
+    border-radius: 16px;
+    background-color: white;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+
+.btn-taka-2{
+    padding: 40px;
+    border: none;
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+
+}
+
+.other-amount{
+    width: 1032px 64px;
+    background-color: white;
+    text-align: center;
+    border: none;
+    color: #0E0E0E;
+    font-size: 20;
+    font-weight: 400;
+    padding: 20px 40px;
+    margin: 32px;
+}
+
+.center{
+  text-align: center;
+  margin-top: 32px;
+}
+
+.banner-2 {
+  background-color: #C6E4D6;
+  border-radius: 24px;
+}
+
+
+.subscribe{
+  padding: 80px 265px;
+  
+}
+
+.sub{
+  font-size: 40px;
+}
+
+.pera-4{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.input-2{
+  background-color: white;
+  width: 500px;
+  padding: 18px 40px;
+}
+
+
+/* footer */
+
+.footer{
+  text-align: center;
+}
+
+
+
